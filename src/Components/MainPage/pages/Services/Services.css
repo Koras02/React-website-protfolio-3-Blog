@@ -1,0 +1,14 @@
+.border {
+    border-left:1px solid #e5c5c5!important;
+    border-right: 1px solid #e5c5c5!important;
+    /* border-color:#e5c5c5 !important; */
+}
+
+.Logo1 {
+    position:relative;
+    left:30%;
+}
+
+.p {
+    color:#848485;
+}
