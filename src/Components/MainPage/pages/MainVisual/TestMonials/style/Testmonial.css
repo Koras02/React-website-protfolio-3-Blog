@@ -30,9 +30,166 @@
     max-width:1110px;
     height:182px;
     padding:0px 15px 0px 15px;
-    border:1px solid #000;
+    /* border:1px solid #000; */
     display:block;
     /* background:red; */
     position:absolute;
     left:25px;
+}
+
+.Slider1 {
+    width:100%;
+    height:182px;
+    outline:none;
+}
+
+
+.slick-slider {
+    position:relative;
+    display:block;
+    box-sizing:border-box;
+    user-select: none;
+}
+
+.row {
+    flex-wrap: wrap;
+    max-width:1140px;
+    height:182px;
+    /* border:1px solid red; */
+}
+
+.slick-arrow {
+    position:absolute;
+    bottom:0px;
+    z-index:9;
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    border:0;
+    color:#fff;
+    background:transparent;
+    line-height: 70px;
+    font-size:35px;
+    outline:0;
+    transition: all .35s ease;
+    /* background:red; */
+}
+.slick-arrow:hover {
+    color:#f57479;
+}
+.slick-arrow:focus {
+    outline:0;
+}
+
+.ti-arrow-left {
+    font-style:normal;
+    /* background:red; */
+    text-transform: none;
+}
+
+.ti-arrow-right {
+    speak: none;
+    font-style:none;
+    z-index:9;
+}
+
+.ti-arrow-left:before {
+    content: "\e629";
+}
+.ti-arrow-right:before {
+    content: "\e628";
+    box-sizing:border-box;
+}
+
+.slick-list {
+    transform: translate3d(0, 0, 0);
+    position:relative;
+    display:block;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    
+}
+
+.slick-list::after::before {
+    box-sizing:border-box;
+}
+
+.slick-track {
+    position:relative;
+    top:0;
+    left:0;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:7980px;
+    height:182px;
+    /* border:1px solid red; */
+}
+
+.slick-slider {
+    max-width:1110px;
+    height: 182px;
+    /* border:1px solid red; */
+}
+
+.text-color {
+    color: #f57479;
+}
+
+.ti-quote-left:before {
+    content: "\e67f";
+}
+
+
+.text-white {
+    color:#fff;
+    font-size:15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.my-4,.mt-4 {
+    margin-top: 1.5rem!important;
+}
+
+d-flex {
+    display:flex;
+    max-width:1110px;
+    height:80px;
+    margin-top:24px;
+}
+
+
+.test-image {
+    width:96px;
+    height:80px;
+    box-sizing:border-box;
+    /* background:Red; */
+}
+
+
+.mt-0 {
+    margin-bottom:0;
+}
+
+.mt-2 {
+    /* border:1px solid #000; */
+    margin-bottom: .5rem;
+}
+
+.text-blue {
+    color:#fff;
+    margin-top:0px;
+    /* position:absolute; */
+    font-size:18px;
+}
+
+.border1 {
+    width:135.250px;
+    height:100px; 
+    /* border:1px solid red; */
+    position: absolute;
+    left:90px;
+    bottom:-10%;
 }

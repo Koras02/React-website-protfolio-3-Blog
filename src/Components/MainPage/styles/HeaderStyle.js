@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { Link as LinkS } from 'react-scroll'
+import { FaAsymmetrik } from 'react-icons/fa';
 import { Link as LinkR } from 'react-router-dom'
-import { FaAsymmetrik } from 'react-icons/fa'
 
 export const MainHeaderWrapper = styled.div`
    width:100%;
@@ -14,7 +15,7 @@ export const MainHeaderWrapper = styled.div`
    z-index:1030;
    background:none;
    // background: red;
-   background:${({ scrollNav }) => scrollNav ? '#203e52' : 'none'};
+   background:${({ scrollNav }) => scrollNav ? 'none' : '#203e52'};
    transition: ${({ scrollNav }) => scrollNav ? '2s' : '0s'}
 `;
 
@@ -26,6 +27,7 @@ export const MainHeaderContainer = styled.div`
 //    border:1px solid red;
    position:relative;
    top:20%;
+   
 
    @media screen and (min-width:1200px) {
        max-width: 1140px;
@@ -80,7 +82,7 @@ export const MainHeaderNavbarList = styled.div`
     display:inline-block;
 `;
 
-export const MainHeadeNavbarListLink = styled(LinkR)`
+export const MainHeadeNavbarListLink = styled(LinkS)`
     text-transform: uppercase;
     color:#000;
     font-size: 16px;
@@ -120,6 +122,6 @@ export const MainHeaderNavbarli = styled.div`
      height:40px;
 `
 
-export const MainHeaderDropdownItem = styled(LinkR)`
+export const MainHeaderDropdownItem = styled(LinkS)`
    
 `
