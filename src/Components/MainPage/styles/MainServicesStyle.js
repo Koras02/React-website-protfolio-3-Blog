@@ -4,7 +4,8 @@ export const MainServicesWarpper = styled.div`
    width:100%;
    height:395px;
    display:block;
-   border:1px solid red;
+   // border:1px solid red;
+   background:#ffe5e5;
    box-sizing:border-box;
 `;
 
@@ -21,7 +22,7 @@ export const MainServicesContainer = styled.div`
 export const MainServicesContainerRow = styled.div`
     max-width:1140px;
     height:395px;
-    border:1px solid #000;
+   //  border:1px solid #000;
     display:flex;
     justify-content:center;
     margin:0px -15px 0px -15px;
@@ -31,7 +32,7 @@ export const MainServicesContainerCol = styled.div`
     max-width:350px;
     height:395px;
     padding:0px 15px 0px 15px;
-    border:1px solid #000;
+   //  border:1px solid #000;
     position:relative;
     left:4%;
    @media screen and (min-width: 992px) {
@@ -45,7 +46,7 @@ export const MainServicesContainerItem = styled.div`
    padding: 80px 24px 80px 24px;
    max-width:302px;
    height:235px;
-   border:1px solid red;
+   // border:1px solid red;
   
 `
 

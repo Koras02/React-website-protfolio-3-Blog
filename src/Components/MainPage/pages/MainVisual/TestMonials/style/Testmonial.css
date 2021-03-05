@@ -1,0 +1,38 @@
+.slide-arrow {
+    position:absolute;
+    bottom: 0px;
+    z-index:9;
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    border: 0;
+    background: transparent;
+    line-height: 70px;
+    font-size: 35px;
+    outline:0;
+    transition: all .35s ease;
+    /* border:1px solid #000; */
+}
+
+.next-arrow {
+    right: 90px;
+    color:#fff;
+}
+
+.prev-arrow {
+    right: 0px;
+    color:#fff;
+    font-size:35px;
+}
+
+
+.Slider { 
+    max-width:1110px;
+    height:182px;
+    padding:0px 15px 0px 15px;
+    border:1px solid #000;
+    display:block;
+    /* background:red; */
+    position:absolute;
+    left:25px;
+}
