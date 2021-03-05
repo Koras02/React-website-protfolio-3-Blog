@@ -1,0 +1,28 @@
+.dropdown-item {
+   display:block;
+   width:100%;
+   clear:both;
+   font-weight: 400;
+   text-align: inherit;
+   white-space: inherit;
+   background-color: transparent;
+   border: 0;
+}
+
+.dropdown-menu {
+    box-sizing: 0px 3px 9px 0px rgb(0 0 0 / 12%);
+    padding:15px;
+    border:0;
+    border-radius: 0;
+    background:#fff;
+    top: 90%;
+    left:0;
+    margin-top:20px;
+    display:block;
+    visibility: hidden;
+    opacity: 0;
+    right:0px;
+    transition: all .45s ease;
+    width:250px;
+    
+}
