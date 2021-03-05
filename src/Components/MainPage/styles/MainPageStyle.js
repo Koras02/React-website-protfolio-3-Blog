@@ -3,12 +3,12 @@ import Image from './banner-2.png'
 
 export const MainPageWrapper = styled.div`
    width:100%;
-   min-height:860px;
+   min-height:100vw;
    display:flex;
    background:#470FA8 !important;
    overflow:hidden;
    padding-top:00px;
-   positoin:absolute;
+   position:absolute;
 `;
 
 

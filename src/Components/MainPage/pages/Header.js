@@ -13,28 +13,32 @@ import {
     MainHeaderDropdownItem
 } from '../styles/HeaderStyle';
 import '../styles/Header.css'
+import { animateScroll as scroll } from 'react-scroll';
 
 export function Header() {
-    const [scrollNav, setscrollNav] = useState();
+    const [scrollNav, setscrollNav] = useState(true);
 
     const changeNav = () => {
-        if (window.scrollY >= 80) {
-            setscrollNav(true)
-        } else (
+        if (window.scrollY > 80) {
             setscrollNav(false)
+        } else (
+            setscrollNav(true)
         );
     }
     useEffect(() => {
-        changeNav()
         window.addEventListener('scroll', changeNav)
-    })
+    }, [])
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
 
 
     return (
         <MainHeaderWrapper scrollNav={scrollNav}>
             <MainHeaderContainer>
-                <MainHeaderNavbarLink to="/">
-                    <Icon>
+                <MainHeaderNavbarLink onClick={toggleHome}>
+                    <Icon to="/">
                     </Icon>
                 </MainHeaderNavbarLink>
                 <MainHeaderNavbarCol>
@@ -56,7 +60,11 @@ export function Header() {
                             </MainHeaderNavbarUl>
                         </MainHeaderNavbarList>
                         <MainHeaderNavbarList>
-                            <MainHeadeNavbarListLink to="/">
+                            <MainHeadeNavbarListLink
+                                to="services"
+                                smooth={true}
+                                offset={100}
+                            >
                                 About
                             </MainHeadeNavbarListLink>
                             <MainHeaderNavbarUl>
@@ -64,7 +72,11 @@ export function Header() {
                             </MainHeaderNavbarUl>
                         </MainHeaderNavbarList>
                         <MainHeaderNavbarList>
-                            <MainHeadeNavbarListLink to="/">
+                            <MainHeadeNavbarListLink
+                                to="blog"
+                                smooth={true}
+                                offset={-200}
+                            >
                                 blog
                             </MainHeadeNavbarListLink>
                             <MainHeaderNavbarUl>
