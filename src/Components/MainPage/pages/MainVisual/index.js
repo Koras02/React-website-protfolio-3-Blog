@@ -7,7 +7,8 @@ import LatestAritcle from './LatestArticle';
 import SectionCounter from './SectionCounter';
 import SectionPort from './SectionPort.js';
 import TestMonials from './TestMonials';
-
+import SectionContent from './SectionContent';
+import SectionFooter from './SectionFooter/Index';
 
 export function MainVisual() {
     return (
@@ -21,6 +22,8 @@ export function MainVisual() {
             <TestMonials />
             <SectionCounter />
             <LatestAritcle />
+            <SectionContent />
+            <SectionFooter />
         </MainVisualWrapper>
     );
 }
