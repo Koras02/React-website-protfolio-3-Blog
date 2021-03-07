@@ -3,7 +3,7 @@ import Image from './banner-2.png'
 
 export const MainPageWrapper = styled.div`
    width:100%;
-   min-height:100vw;
+   max-height:100vw;
 
    display:flex;
    background:#470FA8 !important;
@@ -31,6 +31,6 @@ export const BackgroundBg = styled.div`
 
 export const MainVisualWrapper = styled.div`
    width:100%;
-   height:1000vh;
+   max-height:799px;
    border:1px solid #000;
 `;
