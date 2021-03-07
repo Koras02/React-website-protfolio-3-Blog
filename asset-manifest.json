@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/React-website-protfolio-3-Blog/static/css/main.6956f638.chunk.css",
-    "main.js": "/React-website-protfolio-3-Blog/static/js/main.09efd9ac.chunk.js",
-    "main.js.map": "/React-website-protfolio-3-Blog/static/js/main.09efd9ac.chunk.js.map",
+    "main.js": "/React-website-protfolio-3-Blog/static/js/main.a999a1c1.chunk.js",
+    "main.js.map": "/React-website-protfolio-3-Blog/static/js/main.a999a1c1.chunk.js.map",
     "runtime-main.js": "/React-website-protfolio-3-Blog/static/js/runtime-main.56e1ea67.js",
     "runtime-main.js.map": "/React-website-protfolio-3-Blog/static/js/runtime-main.56e1ea67.js.map",
     "static/css/2.39eadb58.chunk.css": "/React-website-protfolio-3-Blog/static/css/2.39eadb58.chunk.css",
-    "static/js/2.21beaa37.chunk.js": "/React-website-protfolio-3-Blog/static/js/2.21beaa37.chunk.js",
-    "static/js/2.21beaa37.chunk.js.map": "/React-website-protfolio-3-Blog/static/js/2.21beaa37.chunk.js.map",
+    "static/js/2.05ce8552.chunk.js": "/React-website-protfolio-3-Blog/static/js/2.05ce8552.chunk.js",
+    "static/js/2.05ce8552.chunk.js.map": "/React-website-protfolio-3-Blog/static/js/2.05ce8552.chunk.js.map",
     "static/js/3.26ce61fe.chunk.js": "/React-website-protfolio-3-Blog/static/js/3.26ce61fe.chunk.js",
     "static/js/3.26ce61fe.chunk.js.map": "/React-website-protfolio-3-Blog/static/js/3.26ce61fe.chunk.js.map",
     "index.html": "/React-website-protfolio-3-Blog/index.html",
     "static/css/2.39eadb58.chunk.css.map": "/React-website-protfolio-3-Blog/static/css/2.39eadb58.chunk.css.map",
     "static/css/main.6956f638.chunk.css.map": "/React-website-protfolio-3-Blog/static/css/main.6956f638.chunk.css.map",
-    "static/js/2.21beaa37.chunk.js.LICENSE.txt": "/React-website-protfolio-3-Blog/static/js/2.21beaa37.chunk.js.LICENSE.txt",
+    "static/js/2.05ce8552.chunk.js.LICENSE.txt": "/React-website-protfolio-3-Blog/static/js/2.05ce8552.chunk.js.LICENSE.txt",
+    "static/media/4.0c1c2107.jpg": "/React-website-protfolio-3-Blog/static/media/4.0c1c2107.jpg",
+    "static/media/Image2.519958aa.jpg": "/React-website-protfolio-3-Blog/static/media/Image2.519958aa.jpg",
     "static/media/Images1.a364af85.jpg": "/React-website-protfolio-3-Blog/static/media/Images1.a364af85.jpg",
     "static/media/Izone.e1cb4c6e.png": "/React-website-protfolio-3-Blog/static/media/Izone.e1cb4c6e.png",
     "static/media/banner-2.2081b894.png": "/React-website-protfolio-3-Blog/static/media/banner-2.2081b894.png",
+    "static/media/footer-bg.cbe2f66f.png": "/React-website-protfolio-3-Blog/static/media/footer-bg.cbe2f66f.png",
     "static/media/images1.c2705396.jpg": "/React-website-protfolio-3-Blog/static/media/images1.c2705396.jpg",
     "static/media/images2.7cab1877.jpg": "/React-website-protfolio-3-Blog/static/media/images2.7cab1877.jpg",
     "static/media/images3.f6c31a2a.jpg": "/React-website-protfolio-3-Blog/static/media/images3.f6c31a2a.jpg",
@@ -27,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.56e1ea67.js",
     "static/css/2.39eadb58.chunk.css",
-    "static/js/2.21beaa37.chunk.js",
+    "static/js/2.05ce8552.chunk.js",
     "static/css/main.6956f638.chunk.css",
-    "static/js/main.09efd9ac.chunk.js"
+    "static/js/main.a999a1c1.chunk.js"
   ]
 }
