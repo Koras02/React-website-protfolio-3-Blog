@@ -1,0 +1,20 @@
+.icon {
+    width:50px;
+    height:80px;
+    margin-right: 24px;
+    color:#f57479;
+}
+
+.text-capitalize {
+    /* text-transform: capitalize; */
+    color:#fff;
+    font-size:14px;
+    line-height: 30px;
+    font-weight:500;
+}
+
+.K {
+    font-size:35px;
+    text-transform: lowercase;
+    font-weight: 500;
+}

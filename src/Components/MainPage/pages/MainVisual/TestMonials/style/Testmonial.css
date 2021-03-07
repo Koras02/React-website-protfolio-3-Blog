@@ -193,3 +193,11 @@ d-flex {
     left:90px;
     bottom:-10%;
 }
+
+.Slider {
+    color:red;
+}
+
+.slick-prev:before{
+    color:red;
+}
