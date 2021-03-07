@@ -26,9 +26,11 @@ import { IoIosQuote } from 'react-icons/io'
 
 export function TestMonials() {
     const settings = {
-        // dots: true,
+        dots: true,
         infinete: true,
-        speed: 500,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,
 
@@ -50,7 +52,12 @@ export function TestMonials() {
                     <TestMonialsWrapperRow2>
                         <TestMonialsWrapperSlickList>
                             <TestMonialsWrapperSlickListTrack>
-                                <Slider {...settings} className="Slider">
+                                <Slider {...settings}
+                                    className="Slider"
+                                    dots={true}
+                                    arrows={true}
+                                    slidesToScroll={1}
+                                >
                                     {/* 1 */}
                                     <div className="Slider1">
                                         <div className="row testmonial-wrap slick-initialized slick-slider">

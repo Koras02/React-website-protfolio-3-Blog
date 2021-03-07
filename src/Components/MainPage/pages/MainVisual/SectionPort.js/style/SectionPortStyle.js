@@ -126,6 +126,6 @@ export const SectionPortLink = styled(LinkR)`
   transition: all 0.3s ease;
   border: 1px solid;
   position:relative;
-  z-index: 1;
+//   z-index: 1;
   cursor: pointer;
 `
