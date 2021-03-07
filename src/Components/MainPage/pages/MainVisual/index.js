@@ -3,6 +3,7 @@ import { BackgroundBg, MainVisualWrapper } from '../../styles/MainPageStyle';
 import Header from '../Header';
 import MainContainer from '../MainContainer';
 import Services from '../Services';
+import LatestAritcle from './LatestArticle';
 import SectionCounter from './SectionCounter';
 import SectionPort from './SectionPort.js';
 import TestMonials from './TestMonials';
@@ -19,6 +20,7 @@ export function MainVisual() {
             <SectionPort />
             <TestMonials />
             <SectionCounter />
+            <LatestAritcle />
         </MainVisualWrapper>
     );
 }
