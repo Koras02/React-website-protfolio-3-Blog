@@ -3,8 +3,7 @@ import Image from './banner-2.png'
 
 export const MainPageWrapper = styled.div`
    width:100%;
-   max-height:100vw;
-
+   max-height:98vw;
    display:flex;
    background:#470FA8 !important;
    overflow-:hidden;

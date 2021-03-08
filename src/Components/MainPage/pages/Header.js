@@ -75,7 +75,7 @@ export function Header() {
                             <MainHeadeNavbarListLink
                                 to="blog"
                                 smooth={true}
-                                offset={-200}
+                                offset={-100}
                             >
                                 blog
                             </MainHeadeNavbarListLink>
@@ -92,7 +92,12 @@ export function Header() {
                             </MainHeaderNavbarUl>
                         </MainHeaderNavbarList>
                         <MainHeaderNavbarList>
-                            <MainHeadeNavbarListLink to="/">
+                            <MainHeadeNavbarListLink
+                                to="footer"
+
+                                smooth={true}
+                                offset={-200}
+                            >
                                 Contact
                             </MainHeadeNavbarListLink>
                             <MainHeaderNavbarUl>
